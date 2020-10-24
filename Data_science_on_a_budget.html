@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Data Science on a budget in the NHS</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Chris Mainey" />
+    <script src="Data_science_on_a_budget_files/header-attrs/header-attrs.js"></script>
+    <link href="Data_science_on_a_budget_files/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="HED.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: title-slide
+
+
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+# Data Science on a budget
+
+&lt;br&gt;&lt;br&gt;
+
+.pull-left[
+__Chris Mainey__
+&lt;b&gt;&lt;p style="font-size:26;"&gt;Senior Data Scientist&lt;br&gt;
+University Hospitals Birmingham &lt;br&gt;
+NHS Foundation Trust&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;span style="font-size:26;"&gt;[chris.mainey@uhb.nhs.uk](mailto:chris.mainey@uhb.nhs.uk)&lt;/span&gt;&lt;br&gt;
+<i class="fab  fa-twitter " style="color:#94C600;"></i> &lt;a href="https://twitter.com/chrismainey?s=09" style="line-height:2;"&gt;@chrismainey&lt;/a&gt;
+]
+
+.pull-right[
+&lt;img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/HI.png" width=75% height=75%&gt;
+&lt;br&gt;
+&lt;img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/logo.png" width=65% height=65%&gt;
+]
+
+---
+
+# NHS Overview
+
+__UK's large, public-funded, healthcare system__
+
++ Covers primary care (GP), secondary care (hospital), community and mental health services, tertiary care (regional specialisms, e.g. transplant)
++ Although there is much national co-operation, it is a network of separate competing organisations
+
+--
+
+__Data Science work can be found in lots of areas:__
++ Trust business reporting, and information teams
++ Finance and planning teams
++ Clinical research, sometimes in partnership
++ Clinical sciences, e.g. imaging, genomic
++ Interested lone workers, e.g. doctors with interest
+
+---
+
+# Univesity Hospitals Birmingham NHS FT
+
++ One of the largest Trust's in UK
++ Four hospitals, QE, Heartlands, Good Hope, Solihull
++ Regional specialist services center
++ Strong clinical research presence, including partnerships with HDR-UK, Turing Institute, Microsoft etc.
+
+--
+
+__Informatics:__
++ Large department, merger of four hospitals, skills differential.
++ SQL Server development, analysis and dashboards is major part.
++ Data engineering is major part of job.
++ Funding is tight and hard to justify new projects, given workload.
+
+
+
+---
+
+# Healthcare Evaluation Data (HED)
+
+
+&lt;a href="https://www.hed.nhs.uk"&gt;www.hed.nhs.uk &lt;/a&gt;
+
+
+.pull-left[
+- Online hospital benchmarking system
+- Statistical models and analysis tools
+- Activity, Mortality, Re-admissions, Length-of-Stay, Market-share etc.
+- Used by ~60 NHS and other organisations
+- Training and support
+&lt;br&gt;&lt;br&gt;
+- __Using national NHS data, including HES, ONS mortality, central returns, NRLS and others__
+]
+.pull-right[
+&lt;br&gt;
+&lt;img src="https://chrismainey.github.io/EARL_2019_presentation/assets/HED_system.png"&gt;
+]
+
+
+---
+
+# What is our work like?
+
++ Building models on national hospital data, mortality, readmissions, LOS etc.
+
+--
+
++ Not 'big data', but large, relational data (~60 million pa, 100+ data items)
+
+--
+
++ We had used SAS for many years, but it's expensive.
+
+--
+
++ I had PhD work funded, and chose to use `R`, led to devleoping new methods.
+
+--
+
++ Working to 'productions' our modelling process in `R`, improve automation etc.
+
+--
+
++ Adopted tools like Git and building R packages, looking at Docker etc., but not 'supported.'
+
+--
+
++ I have to justify increase in profit, or saving on time spent to frame what we do.
+
+--
+
++ I run R training courses and R-usergroup to promote it.
+---
+
+# Set up
+
++ Bog-standard Windows desktop.
+
+--
+
++ Fight for more RAM, although over charged!
+
+--
+
++ Important to note, cloud providers are not yet trusted. Compute is based on our own physical servers.
+
+--
+
++ Desktops are constrained in RAM, disk and CPU, so we learnt to be efficient.
+
+--
+
++ Couldn't get funding for RStudio professional or other solutions, so eventually set up our own.
+
+--
+
++ Acquired a piece of a 'development' server and put Linux VM on it, now run RStudio server.
+
+--
+
++ Again, not supported by our Trust, but we have to manage locally.
+
+
+---
+
+# Take aways
+
++ There is plenty of Data Science in the NHS
+
++ You have to fight for it
+
++ Need to sell the benefits to anyone who might be able to fund.
+
++ Even without funding, there is loads you can do.
+
++ Demonstrate benefit to make your case!
+
++ Engage with the community, e.g. NHS-R community, Twitter, third sector
+
++ Be an Evangelist!  Train others, publish blogs/articles, be a mentor.
+
+---
+
+class: middle
+
+# Thanks for your time!
+
+.pull-left[
+<i class="fas  fa-envelope " style="color:#94C600;"></i> &lt;a href="mailto:chris.mainey@uhb.nhs.uk;" style="line-height:2;"&gt; chris.mainey@uhb.nhs.uk &lt;/a&gt;
+&lt;br&gt;
+<i class="fas  fa-globe " style="color:#94C600;"></i> &lt;a href="http://www.hed.nhs.uk" style="line-height:2;"&gt;http://www.hed.nhs.uk&lt;/a&gt;
+&lt;br&gt;
+<i class="fab  fa-twitter " style="color:#94C600;"></i> &lt;a href="https://twitter.com/chrismainey?s=09" style="line-height:2;"&gt;@chrismainey&lt;/a&gt;
+&lt;br&gt;
+<i class="fab  fa-github " style="color:#94C600;"></i> &lt;a href="https://github.com/chrismainey)" style="line-height:2;"&gt;chrismainey&lt;/a&gt;
+&lt;br&gt;
+<i class="fas  fa-globe " style="color:#94C600;"></i> &lt;a href="http://www.mainard.co.uk" style="line-height:2;"&gt;http://www.mainard.co.uk&lt;/a&gt;
+&lt;br&gt;
+<i class="fas  fa-globe " style="color:#94C600;"></i> &lt;a href="https://nhsrcommunity.com/" style="line-height:2;"&gt;https://nhsrcommunity.com/&lt;/a&gt;
+
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;img src= './assets/funnelplotr.png' width=10% height=10% align="middle"&gt; `FunnelPlotR`  <i class="fas  fa-box " style="color:#94C600;"></i>  now available on CRAN!
+]
+
+.pull-right[
+&lt;img src= './assets/NHSR-logo.png' width=100% height=100% align="middle"&gt; 
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
