@@ -9,4 +9,4 @@
 
 <!-- badges: end -->
 
-Repository for my slides for talk on 3rd Nov 202.
+Repository for my slides for talk on 3rd Nov 2020.

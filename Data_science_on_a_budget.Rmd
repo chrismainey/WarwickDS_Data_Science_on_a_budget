@@ -66,10 +66,11 @@ NHS Foundation Trust</b></p>
 __UK's large, public-funded, healthcare system__
 
 + Covers primary care (GP), secondary care (hospital), community and mental health services, tertiary care (regional specialisms, e.g. transplant)
-+ Although there is much national co-operation, it is a network of separate competing organisations
++ Although there's much co-operation, network of separate, competing, organisations
 
 --
 
+<br>
 __Data Science work can be found in lots of areas:__
 + Trust business reporting, and information teams
 + Finance and planning teams
