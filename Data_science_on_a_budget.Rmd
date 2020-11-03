@@ -54,9 +54,12 @@ NHS Foundation Trust</b></p>
 ]
 
 .pull-right[
-<img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/HI.png" width=75% height=75%>
+<img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/logo.png" width=50% height=50%>
 <br>
-<img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/logo.png" width=65% height=65%>
+<img src= "https://chrismainey.github.io/EARL_2019_presentation/assets/HI.png" width=62% height=62%>
+<br>
+<img src= "https://www.uhb.nhs.uk/Images/uhb-logo-2017.png" width=58% height=58% style="border:10px solid #FFFFFF;">
+
 ]
 
 ---
@@ -103,7 +106,7 @@ __Data Science work can be found in lots of areas:__
 # Univesity Hospitals Birmingham NHS FT
 
 <p align="center">
-<img class="marginauto" src="https://www.uhb.nhs.uk/Images/img-header-about-the-trust.jpg" width = 90% >
+<img class="marginauto" src="https://www.uhb.nhs.uk/Images/img-header-about-the-trust.jpg" width = 85% >
 </p>
 
 .pull-left[
